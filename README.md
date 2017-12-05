@@ -23,9 +23,8 @@ npm install
 npm start
 ```
 Go to http://localhost:3000
+To get started, edit `src/components/App.js` and save to reload.
 
-
-To get started, edit src/components/App.js and save to reload.
 
 
 Below you will find some information on how to perform common tasks.<br>
