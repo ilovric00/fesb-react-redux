@@ -1,4 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor.
+
+## How to use ##
+First, make sure you have **Node.js** (npm) installed.
+
+** Clone the app**
+
+```
+git clone https://IvanLovric@bitbucket.org/IvanLovric/fesb-react-redux.git
+```
+
+** Checkout to react-scss-boilerplate branch**
+
+```
+cd fesb-react-redux
+git checkout react-scss-boilerplate
+```
+
+** Run development server**
+
+```
+npm install
+npm start
+```
+Go to http://localhost:3000
+
+
+To get started, edit src/components/App.js and save to reload.
+
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
