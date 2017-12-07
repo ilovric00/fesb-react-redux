@@ -1,3 +1,11 @@
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+
+# **Redux & React** #
+
+Simple Redux example with React.
+
+
 ## How to use ##
 First, make sure you have **Node.js** (npm) installed.
 
