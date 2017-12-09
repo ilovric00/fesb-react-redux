@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import '../styles/css/components/app.css';
-import logo from '../assets/logo.svg';
+import Header from './Header';
+import Main from './Main';
+import Sidebar from './Sidebar';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React Scss boilerplate</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/components/App.js</code> and save to reload.
-        </p>
+      <div className="container">
+        <Header />
+        <div className="container--flex wrapper">
+          <Main />
+          <Sidebar />
+        </div>
       </div>
     );
   }

@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: $max-width;
+  min-width: $min-width;  
+  margin: 0 auto;
+  padding: 0 $page-padding;
+  border: 1px solid transparent;
+
+  &--flex {
+    display: flex;
+    flex: 1;
+  
+    &--column {
+      flex-direction: column
+    }
+  }
+}
+
+.wrapper {
+  border: 1px solid $gray-light;
+}
