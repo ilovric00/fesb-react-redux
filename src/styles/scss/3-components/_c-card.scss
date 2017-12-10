@@ -1,11 +1,11 @@
 .c-card {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   background-color: $white;
   text-align: center;
   color: $light-black;
-  min-width: 15rem;
+  min-width: 15.625rem;
   margin: 1.25rem auto;
   padding: 1.25rem;
   border: 1px solid $gray-light;

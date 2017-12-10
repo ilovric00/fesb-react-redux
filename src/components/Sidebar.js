@@ -1,8 +1,12 @@
 import React from 'react';
+import Search from './Search';
 
-const Sidebar = () => {
+const Sidebar = (props) => {
   return (
-    <aside className="c-sidebar">Search cards...</aside>
+    <aside className="c-sidebar">
+      <h1 className="c-sidebar__title">Find user</h1>
+      <Search onChange={props.onChange} />
+    </aside>
   );
 }
 

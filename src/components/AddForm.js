@@ -17,15 +17,15 @@ class AddForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} className="c-form">
         <input
           value={this.state.username}
           onChange={(event) => this.setState({ username: event.target.value })}
           type="text"
-          placeholder="GitHub username..."
+          placeholder="GitHub username . . ."
           required 
         />
-        <button type="submit">Add card</button>
+        <button type="submit" className="c-form__button">Add card</button>
       </form>
     );
   }
