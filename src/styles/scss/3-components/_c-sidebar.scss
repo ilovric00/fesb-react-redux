@@ -1,4 +1,9 @@
 .c-sidebar {
   width: 33%;
   background-color: $body-bg;
+
+  @media (max-width: $br-small-min) {
+    flex: 1;
+    width: 100%;
+  }    
 }

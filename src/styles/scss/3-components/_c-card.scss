@@ -4,24 +4,27 @@
   align-items: center;
   background-color: $white;
   text-align: center;
-  color: $facebook;
+  color: $light-black;
+  min-width: 15rem;
   margin: 1.25rem auto;
   padding: 1.25rem;
   border: 1px solid $gray-light;
   border-radius: 0.3125rem;
-  // min-height: calc(100vh - 50px);
 
   &__content {
     margin-left: 0.6rem;
+    text-align: left;
 
     &__title {
       font-size: 1.25rem;
-      font-weight: 700;
+      line-height: 1.5rem;
+      font-weight: 400;
     }
 
     &__description {
       font-size: 1rem;
-      font-weight: 400;
+      line-height: 1.5rem;      
+      font-weight: 100;
     }
   }
 }

@@ -1,11 +1,10 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = () => {
+const CardList = (props) => {
   return (
     <div className="container--flex container--flex--column">
-      <Card />
-      <Card />
+      {props.cards.map(card => <Card key={card.name} {...card} />)}
     </div>
   );
 }

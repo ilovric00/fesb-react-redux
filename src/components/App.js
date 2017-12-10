@@ -9,8 +9,8 @@ class App extends Component {
       <div className="container">
         <Header />
         <div className="container--flex wrapper">
-          <Main />
           <Sidebar />
+          <Main />
         </div>
       </div>
     );
