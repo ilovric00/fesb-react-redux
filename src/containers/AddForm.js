@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import { addCard } from '../redux/actions';
 
 class AddForm extends Component {
   state = {
@@ -10,7 +13,7 @@ class AddForm extends Component {
     fetch(`https://api.github.com/users/${this.state.username}`)
       .then(response => response.json())
       .then(data => {
-        this.props.onSubmit(data);
+        this.props.actions.addCard(data);        
         this.setState({ username: '' });        
       });
   };
@@ -30,4 +33,20 @@ class AddForm extends Component {
     );
   }
 }
-export default AddForm;
+
+function mapStateToProps(state) {
+  return {};
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(
+      {
+        addCard
+      },
+      dispatch
+    )
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(AddForm);
