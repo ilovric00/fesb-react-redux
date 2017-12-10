@@ -1,9 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor.
 
 
-# **React** #
+# **Redux & React** #
 
-Advanced React example.
+Advanced Redux example with React.
 
 
 ## How to use ##
@@ -15,11 +15,11 @@ First, make sure you have **Node.js** (npm) installed.
 git clone https://IvanLovric@bitbucket.org/IvanLovric/fesb-react-redux.git
 ```
 
-** Checkout to advanced-react-example**
+** Checkout to advanced-redux-example**
 
 ```
 cd fesb-react-redux
-git checkout advanced-react-example
+git checkout advanced-redux-example
 ```
 
 ** Run development server**
