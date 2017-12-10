@@ -32,4 +32,4 @@ Go to http://localhost:3000
 
 ## Demo
 
-![Demo]()
+![Demo](https://bytebucket.org/IvanLovric/fesb-react-redux/raw/0ac15b7994cdf5f6286107f31c03df77404ad8c5/src/assets/Demo.png)
