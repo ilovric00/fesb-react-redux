@@ -29,3 +29,8 @@ npm install
 npm start
 ```
 Go to http://localhost:3000
+
+
+## Demo
+
+![Demo](https://bytebucket.org/IvanLovric/fesb-react-redux/raw/7b39386d2ade9a157dbb761bb06745d9cd235392/src/assets/Demo.png)
