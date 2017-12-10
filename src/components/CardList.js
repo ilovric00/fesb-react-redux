@@ -1,8 +1,12 @@
 import React from 'react';
+import Card from './Card';
 
 const CardList = () => {
   return (
-    <div className="c-card">CardList</div>
+    <div className="container--flex container--flex--column">
+      <Card />
+      <Card />
+    </div>
   );
 }
 

@@ -1,6 +1,27 @@
 .c-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: $white;
   text-align: center;
   color: $facebook;
-  min-height: calc(100vh - 50px);
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+  border: 1px solid $gray-light;
+  border-radius: 0.3125rem;
+  // min-height: calc(100vh - 50px);
+
+  &__content {
+    margin-left: 0.6rem;
+
+    &__title {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    &__description {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
 }
