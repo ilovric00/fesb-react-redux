@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor. Also, it uses BEM naming convention and Inverted Triangle CSS architecture [BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor. Also, it uses BEM naming convention and Inverted Triangle CSS architecture ([BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)).
 
 
 # **React Scss Boilerplate** #
