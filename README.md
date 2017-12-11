@@ -26,7 +26,7 @@ To get started, edit `src/components/App.js` and save to reload.
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor.
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor. Using BEM naming convention and Inverted Triangle CSS architecture [BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/).
 
 Below you will find some information on how to perform common tasks.
 

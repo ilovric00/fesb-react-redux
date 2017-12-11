@@ -1,0 +1,11 @@
+// 0. Settings
+@import '0-settings/s-variables';
+
+// 1. Globals - Reset and base styling of HTML elements
+//    Only default styling of HTML elements, no classes or ID's!
+@import '1-globals/g-reset';
+@import '1-globals/g-base';
+
+// 2. Components - Whole components, like headers, footers, articles, images
+//    Usually composed of one or more object classes and component-specific styling
+@import '2-components/c-app';
