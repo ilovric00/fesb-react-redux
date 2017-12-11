@@ -1,3 +1,10 @@
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor. Also, it uses BEM naming convention and Inverted Triangle CSS architecture [BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/).
+
+
+# **Redux & React** #
+
+Advanced Redux example with React.
+
 ## How to use ##
 First, make sure you have **Node.js** (npm) installed.
 
@@ -26,13 +33,13 @@ To get started, edit `src/components/App.js` and save to reload.
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and Scss preprocessor. Using BEM naming convention and Inverted Triangle CSS architecture [BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/).
+## Documentation
 
 Below you will find some information on how to perform common tasks.
 
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Table of Contents
+** Table of Contents**
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
