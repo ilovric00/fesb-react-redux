@@ -10,7 +10,7 @@ class App extends Component {
           <h1 className="c-app__title">Welcome to React Scss boilerplate</h1>
         </header>
         <p className="c-app__intro">
-          To get started, edit <code>src/components/App.js</code> and save to reload.
+          To get started, edit <code className="c-app__intro--code">src/components/App.js</code> and save to reload.
         </p>
       </div>
     );

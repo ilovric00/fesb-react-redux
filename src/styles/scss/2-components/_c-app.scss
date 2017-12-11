@@ -19,6 +19,11 @@
 
   &__intro {
     font-size: large;
+
+    &--code {
+      font-size: smaller;
+      color: $light-black;
+    }
   }
 }
 
