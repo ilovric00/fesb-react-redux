@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # **React Scss Boilerplate** #
 
-Advanced Redux example with React.
+React Scss Boilerplate with BEM naming convention and Inverted Triangle CSS architecture ([BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)).
 
 ## How to use ##
 First, make sure you have **Node.js** (npm) installed.
